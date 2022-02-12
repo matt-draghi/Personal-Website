@@ -15,6 +15,15 @@ function Navbar(){
             <NavLink exact to="/blogs">
                 Blog
             </NavLink>
+            <NavLink exact to="/resume">
+                Resume
+            </NavLink>
+            <NavLink exact to="/social">
+                Social
+            </NavLink>
+            <NavLink exact to="/contact">
+                Contact Me
+            </NavLink>
         </div>
     )
 }

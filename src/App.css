@@ -25,15 +25,23 @@
 }
 
 .App-header a{
-  border: solid white;
+  /* border: solid white; */
   margin: 25px;
+  padding: 2px;
   text-decoration: none;
   color: aliceblue;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition: .3s;
+  border-radius: 5px;
 }
 
 .App-header a:hover{
-  border: solid aqua;
+  border: 3px solid aqua;
   margin: 25px;
+  color: aqua;
 }
 
 .App-link {
