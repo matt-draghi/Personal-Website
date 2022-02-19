@@ -17,29 +17,31 @@ function App() {
         <img src={logo} alt="test" title="Made with React" className='logo'/>
         <Navbar />
       </header>
-      <Switch>
-        <Route path="/home">
-          <Home />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/blogs">
-          <BlogContainer />
-        </Route>
-        <Route path="/resume">
-          <Resume />
-        </Route>
-        <Route path="/social">
-          <Social />
-        </Route>
-        <Route path="/contact">
-          <ContactForm />
-        </Route>
-      </Switch>
+      <div className='component-container'>
+        <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/blogs">
+            <BlogContainer />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/social">
+            <Social />
+          </Route>
+          <Route path="/contact">
+            <ContactForm />
+          </Route>
+        </Switch>
+      </div>
     </div>
   );
 }
