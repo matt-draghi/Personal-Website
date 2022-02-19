@@ -49,5 +49,40 @@
 }
 
 .component-container{
-  background-color: aquamarine;
+
+}
+
+/*############### BLOG CARD ################ */
+.cards-container{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  /* height: 100%;
+  width: 100%; */
+  border: solid blue;
+}
+
+.blog-card{
+  display:flex;
+  border: solid;
+  width: 85%;
+  height: 150px;
+  align-items: center;
+}
+.blog-card img{
+  height: 120px;
+  width: 180px;
+}
+
+.blog-details{
+  display: flex;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.blog-details p{
+  align-self: center;
+  margin-left: 10px;
+  font-size: .8rem;
+  font-style: italic;
 }
