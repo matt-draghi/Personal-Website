@@ -16,9 +16,11 @@ function BlogContainer(){
 
     return(
         <div className="cards-container">
+            
             {blogArray.map((blog) => {
-                return (<BlogCard blog={blog}/>)
+                return (<BlogCard key={blog.title} blog={blog}/>)
             })}
+            <h1>Blogs</h1>
         </div>
     )
 }

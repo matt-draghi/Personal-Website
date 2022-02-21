@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import 'animate.css'
 import './styles/App.css';
 import { Switch, Route } from 'react-router-dom/cjs/react-router-dom.min';
 import Navbar from './components/Navbar';

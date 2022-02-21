@@ -3,17 +3,25 @@ function BlogCard({blog}){
     const {author, categories, content, description, title, thumbnail, link} = blog
     
     return (
-        <div className="blog-card">
-            <img 
-              className="blog-thumbnail"
-              src={thumbnail}
-              alt="thumbnail"
-            />
-            <div className="blog-details">
-                <h3>{title}</h3>
-                <p> by: {author}</p>
+        <a href={link} target="_blank" className="blog-link">
+            <div className="blog-card">
+                <img 
+                className="blog-thumbnail"
+                src={thumbnail}
+                alt="thumbnail"
+                />
+                <div className="blog-contents">
+                    <div className="blog-header">
+                        <h3>{title}</h3>
+                        <p> by: {author}</p>
+                        {/* <p>ADD publish date here</p> */}
+                    </div>
+                    <div className="blog-description">
+                        <p>{description.substring(4, 200)}...</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </a>
     )
 }
 
