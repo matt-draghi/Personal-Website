@@ -1,8 +1,6 @@
 function Home(){
     return(
-        <div>
-            <h1>Personal Site Test</h1>
-        </div>
+        <h1>Welcome</h1>
     )
 }
 

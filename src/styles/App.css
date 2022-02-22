@@ -48,16 +48,16 @@
   color: #61dafb;
 }
 
-.component-container{
+/* .component-container{
 
-}
+} */
 
 /*############### BLOG CARD ################ */
 .cards-container{
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
-  /* height: 100%;*/
+  height: auto;
   width: 100%; 
 }
 
@@ -72,13 +72,13 @@
   display:flex;
   border: solid thin;
   width: 90%;
-  height: 150px;
+  height: auto;
   align-items: center;
   box-shadow: grey 3px 3px;
 }
 
 .blog-card img{
-  height: 90%;
+  height: 125px;
   width: auto;
   margin: 10px;
 }
@@ -86,6 +86,7 @@
 .blog-contents{
   display: flex;
   flex-direction: column;
+  margin-bottom: 15px;
 }
 
 .blog-header{
@@ -106,3 +107,30 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.blog-date{
+  width: 40%;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+.project-list-container{
+  display: flex;
+  justify-content: center;
+}
+
+.project-list-container a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.resume{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TODO: fix styling for resume and projects (divide projects into columns and explain them - add html in project card, add styling here) */

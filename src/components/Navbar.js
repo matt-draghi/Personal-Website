@@ -4,26 +4,26 @@ function Navbar(){
     return(
         <div>
             <NavLink exact to="/">
-                Home
+                home.
             </NavLink>
             <NavLink exact to="/about">
-                About
+                about.
             </NavLink>
             <NavLink exact to="/projects">
-                Projects
+                projects.
             </NavLink>
             <NavLink exact to="/blogs">
-                Blog
+                blogs.
             </NavLink>
             <NavLink exact to="/resume">
-                Resume
+                resume.
             </NavLink>
             <NavLink exact to="/social">
-                Social
+                social.
             </NavLink>
-            <NavLink exact to="/contact">
-                Contact Me
-            </NavLink>
+            {/* <NavLink exact to="/contact">
+                contact me.
+            </NavLink> */}
         </div>
     )
 }

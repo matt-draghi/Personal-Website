@@ -38,9 +38,9 @@ function App() {
           <Route path="/social">
             <Social />
           </Route>
-          <Route path="/contact">
+          {/* <Route path="/contact">
             <ContactForm />
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </div>

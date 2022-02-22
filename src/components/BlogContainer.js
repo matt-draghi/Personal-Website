@@ -20,7 +20,10 @@ function BlogContainer(){
             {blogArray.map((blog) => {
                 return (<BlogCard key={blog.title} blog={blog}/>)
             })}
-            <h1>Blogs</h1>
+            <br/>
+            <span>(More to be posted in the coming weeks)</span>
+            <h3>Check out my thoughts by clicking on a blog below!</h3>
+            <h1>blogs.</h1>
         </div>
     )
 }
