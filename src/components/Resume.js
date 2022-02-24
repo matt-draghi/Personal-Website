@@ -12,7 +12,7 @@ function Resume(){
            <FadeIn>
            {/* //TODO: host resume on external site (one drive?) and link image of pdf to that site so users can click on the links */}
            <h1>resume.</h1>
-           <h3>(Please scorll for the links from the resume below)</h3>
+           <h3>(Please scroll for the links from the resume below)</h3>
             <div className='document'>
                 <Document
                     file={resume}
