@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import FadeIn from "react-fade-in/lib/FadeIn"
 
 function Projects(){
 
@@ -15,12 +16,14 @@ function Projects(){
 
     return(
         <div>
+            <FadeIn>
             <h1>projects.</h1>
+            <h3>Checkout some of the things I have done so far - follow these links to my GitHub pages</h3>
             <div className="project-list-container">
                 <ul>
                     {starredProjects.map(project => {
                         return(
-                            <li>
+                            <li className="project-item">
                                 <a href={`https://github.com/matt-draghi/${project.name}/tree/main`} target="_blank">
                                     {project.name}
                                 </a>
@@ -31,6 +34,7 @@ function Projects(){
                         })}
                 </ul>
             </div>
+            </FadeIn>
         </div>
     )
 }

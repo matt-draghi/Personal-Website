@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import BlogCard from "./BlogCard"
+import FadeIn from "react-fade-in/lib/FadeIn"
 
 function BlogContainer(){
 
@@ -16,14 +17,15 @@ function BlogContainer(){
 
     return(
         <div className="cards-container">
-            
+            <FadeIn>
+                <h1>blogs.</h1>
+                <h3>Check out my thoughts by clicking on a blog below!</h3>
+                <span>(More to be posted in the coming weeks)</span>
+                <br/>
             {blogArray.map((blog) => {
                 return (<BlogCard key={blog.title} blog={blog}/>)
             })}
-            <br/>
-            <span>(More to be posted in the coming weeks)</span>
-            <h3>Check out my thoughts by clicking on a blog below!</h3>
-            <h1>blogs.</h1>
+            </FadeIn>
         </div>
     )
 }

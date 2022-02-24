@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: space-evenly; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -25,7 +24,6 @@
 }
 
 .App-header a{
-  /* border: solid white; */
   margin: 25px;
   padding: 2px;
   text-decoration: none;
@@ -39,23 +37,31 @@
 }
 
 .App-header a:hover{
-  border: 3px solid aqua;
+  border: 3px solid #61dafb;
   margin: 25px;
-  color: aqua;
+  color: #61dafb;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-/* .component-container{
+.component-container{
+  height: 100%;
+}
 
-} */
+.home-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
 
 /*############### BLOG CARD ################ */
 .cards-container{
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   height: auto;
   width: 100%; 
@@ -116,6 +122,8 @@ h1{
   font-size: 2.5rem;
 }
 
+/* ########## PROJECTS ######## */
+
 .project-list-container{
   display: flex;
   justify-content: center;
@@ -126,6 +134,30 @@ h1{
   color: black;
   font-size: 1.2rem;
 }
+.project-item{
+  margin-bottom: 5%;
+}
+
+/* TODO: fix styling for resume and projects (divide projects into columns and explain them - add html in project card, add styling here) */
+/* ####### ABOUT ####### */
+.about-container{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.about-container p{
+  font-size: 1.5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about-container img{
+  width: 450px;
+  align-self: center;
+}
+
+/* ###### RESUME ######## */
 
 .resume{
   display: flex;
@@ -133,4 +165,30 @@ h1{
   align-items: center;
 }
 
-/* TODO: fix styling for resume and projects (divide projects into columns and explain them - add html in project card, add styling here) */
+.document{
+  display: flex;
+  justify-content: center;
+}
+
+.resume-links{
+  width:100%;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  column-gap: 25px;
+  justify-content: center;
+  align-content: center;
+  background-color: #282C34;
+}
+
+.resume-links div{
+  border: solid thin #61dafb;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.resume-links a{
+  color: #61dafb;
+  background-color: #282C34;
+  text-decoration: none;
+}
