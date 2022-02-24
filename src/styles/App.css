@@ -192,3 +192,18 @@ h1{
   background-color: #282C34;
   text-decoration: none;
 }
+
+/* ###### SOCIAL ####### */
+.icons-container{
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.icon{
+ height: 100%;
+ width: 100px; 
+}
