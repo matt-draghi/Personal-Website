@@ -81,6 +81,7 @@
   height: auto;
   align-items: center;
   box-shadow: grey 3px 3px;
+  margin-bottom: 20px;
 }
 
 .blog-card img{
