@@ -9,9 +9,9 @@ function Navbar(){
             <NavLink exact to="/about">
                 about.
             </NavLink>
-            <NavLink exact to="/projects">
+            {/* <NavLink exact to="/projects">
                 projects.
-            </NavLink>
+            </NavLink> */}
             <NavLink exact to="/blogs">
                 blogs.
             </NavLink>

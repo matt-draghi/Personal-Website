@@ -6,6 +6,9 @@ function Home(){
             <FadeIn>
             <h1>welcome.</h1>
             <h3>Please click around using the navigation bar above to learn more about me and my experiences</h3>
+
+            {/* TODO: add key projects here (baby and dotify (front and back)) */}
+            
             </FadeIn>
         </div>
     )

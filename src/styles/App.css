@@ -178,7 +178,7 @@ h1{
   padding-right: 10px;
   column-gap: 25px;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   background-color: #282C34;
 }
 
