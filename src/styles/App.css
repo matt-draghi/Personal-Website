@@ -172,7 +172,7 @@ h1{
 }
 
 .resume-links{
-  width:100%;
+  width:auto;
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
