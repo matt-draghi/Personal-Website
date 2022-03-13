@@ -25,8 +25,6 @@ function Resume(){
                 <div></div>
                 <p><a href="https://medium.com/@mtd5264" target="_blank">Medium</a></p>
                 <div></div>
-                <p><a href="https://matthew-draghi.com/" target="_blank">matthew-draghi.com</a></p>
-                <div></div>
                 <p><a href="https://github.com/matt-draghi/Dotify" target="_blank">Dotify Frontend</a></p>
                 <div></div>
                 <p><a href="https://github.com/matt-draghi/Dotify-Backend" target="_blank">Dotify Backend</a></p>
@@ -35,7 +33,12 @@ function Resume(){
                 <div></div>
                 <p><a href="https://github.com/matt-draghi/phase-2-project" target="_blank">Baby Brands GitHub</a></p>
                 <div></div>
-                <p><a href="https://github.com/matt-draghi/Phase-1-Project" target="_blank">B33R GitHub</a></p>   
+                <p><a href="https://vimeo.com/687748994" target="_blank">Baby Brands Demo</a></p>
+                <div></div>
+                <p><a href="https://github.com/matt-draghi/Phase-1-Project" target="_blank">B33R GitHub</a></p>
+                <div></div>
+                <p><a href="https://vimeo.com/687749289" target="_blank">B33R Demo</a></p>
+                <div></div>   
             </div>
             </FadeIn>
         </div>

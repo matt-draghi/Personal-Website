@@ -28,7 +28,7 @@
   border-radius: 5px;
 }
 
-.App-header a{
+.App-header a, .resume-links a{
   margin: 25px;
   padding: 2px;
   text-decoration: none;
@@ -41,7 +41,7 @@
   border-radius: 5px;
 }
 
-.App-header a:hover{
+.App-header a:hover, .resume-links a:hover{
   border: 3px solid #61dafb;
   margin: 25px;
   color: #61dafb;
@@ -187,12 +187,6 @@ h1{
   border: solid thin #61dafb;
   margin-top: 1.5%;
   margin-bottom: 1.5%;
-}
-
-.resume-links a{
-  color: #61dafb;
-  background-color: #282C34;
-  text-decoration: none;
 }
 
 /* ###### SOCIAL ####### */
