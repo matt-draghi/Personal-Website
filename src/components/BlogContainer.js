@@ -18,7 +18,7 @@ function BlogContainer(){
     return(
         <div className="cards-container">
             <FadeIn>
-                <h1>blogs.</h1>
+                <h2>blogs</h2>
                 <h3>Check out my thoughts by clicking on a blog below!</h3>
                 <span>(More to be posted in the coming weeks)</span>
                 <br/>

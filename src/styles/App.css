@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -9,12 +10,16 @@
 
 .App-header{
   background-color: #282c34;
-  height: 65px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1.2rem;
   color: white;
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 
 .App-header img.logo{
@@ -47,8 +52,16 @@
 }
 
 .component-container{
-  height: 100%;
+  margin-top: 50px;
+  width: 100%;
 }
+
+h2{
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+/* ######### HOME ################ */
 
 .home-container{
   height: 100%;
@@ -123,23 +136,6 @@ h1{
   font-size: 2.5rem;
 }
 
-/* ########## PROJECTS ######## */
-
-.project-list-container{
-  display: flex;
-  justify-content: center;
-}
-
-.project-list-container a{
-  text-decoration: none;
-  color: black;
-  font-size: 1.2rem;
-}
-.project-item{
-  margin-bottom: 5%;
-}
-
-/* TODO: fix styling for resume and projects (divide projects into columns and explain them - add html in project card, add styling here) */
 /* ####### ABOUT ####### */
 .about-container{
   display: flex;
@@ -148,7 +144,7 @@ h1{
 }
 
 .about-container p{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -169,11 +165,16 @@ h1{
 .document{
   display: flex;
   justify-content: center;
+  height: auto;
+  width:auto;
 }
 
 .resume-links{
-  width:auto;
+  width: 100%;
   display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   padding-left: 10px;
   padding-right: 10px;
   column-gap: 25px;

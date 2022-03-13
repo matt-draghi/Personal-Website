@@ -10,9 +10,7 @@ function Resume(){
     return(
        <div className="resume">
            <FadeIn>
-           {/* //TODO: host resume on external site (one drive?) and link image of pdf to that site so users can click on the links */}
-           <h1>resume.</h1>
-           <h3>(Please scroll for the links from the resume below)</h3>
+           <h2>resume</h2>
             <div className='document'>
                 <Document
                     file={resume}
@@ -37,8 +35,7 @@ function Resume(){
                 <div></div>
                 <p><a href="https://github.com/matt-draghi/phase-2-project" target="_blank">Baby Brands GitHub</a></p>
                 <div></div>
-                <p><a href="https://github.com/matt-draghi/Phase-1-Project" target="_blank">B33R GitHub</a></p>
-                
+                <p><a href="https://github.com/matt-draghi/Phase-1-Project" target="_blank">B33R GitHub</a></p>   
             </div>
             </FadeIn>
         </div>

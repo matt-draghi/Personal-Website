@@ -5,7 +5,7 @@ function Social(){
     return(
         <div className="social-container">
             <FadeIn>
-            <h1>social.</h1>
+            <h2>social</h2>
             <h3>Follow me at any of these social accounts</h3>
             <div className="icons-container">
                 

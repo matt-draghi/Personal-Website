@@ -1,25 +1,23 @@
 import {NavLink} from "react-router-dom"
 
 function Navbar(){
+    // Remove the dots?
     return(
         <div>
             <NavLink exact to="/">
-                home.
+                home
             </NavLink>
             <NavLink exact to="/about">
-                about.
+                about
             </NavLink>
-            {/* <NavLink exact to="/projects">
-                projects.
-            </NavLink> */}
             <NavLink exact to="/blogs">
-                blogs.
+                blogs
             </NavLink>
             <NavLink exact to="/resume">
-                resume.
+                resume
             </NavLink>
             <NavLink exact to="/social">
-                social.
+                social
             </NavLink>
             {/* <NavLink exact to="/contact">
                 contact me.
